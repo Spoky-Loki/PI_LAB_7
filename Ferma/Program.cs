@@ -25,6 +25,8 @@
         static void Main()
         {
             int n = 2;
+            int k = 0;
+            n /= k;
             if (Ferma(n, out int x, out int y, out int z))
                 Console.WriteLine("Теорема Ферма верна для n={0}, x={1}, y={2}, z={3}", n, x, y, z);
             else
